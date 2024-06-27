@@ -1,9 +1,15 @@
+:root {
+  font-family: "Alice", serif;
+  line-height: 150%;
+}
+
 body {
   background-image: url(Assets/Página\ de\ receita.jpg);
   background-size: cover;
 }
 
 #page {
+  color: #573a37;
   box-sizing: border-box;
   width: 800px;
   padding: 24px;
@@ -14,4 +20,15 @@ body {
 
 img {
   border-radius: 16px;
+}
+
+h1 {
+  color: #291b1a;
+  line-height: 140%;
+  font-size: 40px;
+}
+
+h2 {
+  color: #291b1a;
+  font-size: 24px;
 }
